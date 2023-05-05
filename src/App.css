@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+body {
+  margin: 0px;
+  font-family: Arial ;
+  background-color:#041a30;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  color: #041a30;
+  text-decoration: none;
+  margin-left: 2%;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover{
+  transform: scale(1.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Nav:hover{ 
+  background-color: rgb(224, 205, 142);
 }
+
+.ProjectImage:hover{
+  transform: scale(1.1);
+}
+
+.Column a:hover{
+  transform: scale(1.1);
+}
+
+.Project p:hover{
+  transform: scale(1.1);
+  color:rgb(224, 205, 142);
+}
+
+#Nav {
+  background-color: white;
+  color:white;
+  position: flex;
+  overflow: hidden;
+  border-color: black;
+  font-size: 12px;
+  display: flex;
+
+}
+
+
+#Home {
+  display: flex;
+  flex-direction: column;
+  color: White;
+  align-items: center;
+  font-size:50px;
+  margin-top:13%;
+}
+
+#Home h1:hover{
+  color:rgb(224, 205, 142);
+}
+
+#Home h2:hover{
+  color:rgb(224, 205, 142);
+}
+
+.Column{
+  display:flex;
+  flex-direction: column;
+  width: min-content;
+  margin: 40px;
+  margin-top: 10%;
+}
+
+.Row{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.iframe {
+  border: solid;
+}
+
+.HomeText{
+  margin: 0;
+  margin-top: 1%;
+}
+
+.Project{
+  text-align: center;
+}
+
+.Project a{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.ProjectDescription{
+  display: inline-block;
+  text-align: left;
+  color:white;
+}
+
+#DeveloperHome{
+  border-top: solid;
+  margin-top: 5%;
+}
+
+.ProjectImage{
+  width: 700px;
+  height: 380px;
+  border-radius: 10px;
+}
+
+.ContactImage{
+  width: 200px;
+  height: 200px;
+  margin-right: 3%;
+}
+
+.row1 {
+  display:flex;
+  color: white;
+  flex-direction: row;
+  margin: 1%;
+  justify-content: space-evenly;
+}
+
+.column1 {
+  margin-top: 15%;
+  display:flex;
+  color:white;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
