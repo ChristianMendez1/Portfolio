@@ -1,10 +1,23 @@
 import Project1 from '../images/Project1.png'
 import Project2 from '../images/Project2.png'
+import Project3 from '../images/Project3.png'
 
 export default function Projects(){
     return(
         <div id='Projects'>
             <div class='Row'>
+                <div class = 'Column'>
+                    <div class='Project'>
+                        <a href="https://crud-reactjs-seresourcesapp.onrender.com/" target="_blank">
+                            <img class='ProjectImage' src={Project3} />
+                        </a>
+                        <a href="https://crud-reactjs-seresourcesapp.onrender.com/" target="_blank">
+                            <p> Software Engineering Resource App <br></br> (MERN stack) </p>
+                        </a>
+                            <p class='ProjectDescription'>MERN Stack App that allows you to create, read, update, and delete data pertaining to software engineering. Great for taking notes and applying for jobs. <br></br>(note: render takes a minute to wake up back-end server out of hibernation)</p>
+                       
+                    </div>
+                </div>
                 <div class = 'Column'>
                     <div class='Project' id='Pokemon'>
                         <a href="https://christianmendez1.github.io/Project2_PokemonWeakness/" target="_blank">
